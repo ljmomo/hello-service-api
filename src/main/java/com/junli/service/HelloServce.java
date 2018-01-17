@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("refactor")
 public interface HelloServce {
 
+
     @GetMapping("/hello4")
     String hello(@RequestParam("name") String name);
 

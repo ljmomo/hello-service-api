@@ -20,6 +20,7 @@ public class User implements Serializable{
         this.age = age;
     }
 
+
     public String getName() {
         return name;
     }
@@ -35,6 +36,7 @@ public class User implements Serializable{
     public void setAge(Integer age) {
         this.age = age;
     }
+
 
 
     @Override
